@@ -132,6 +132,9 @@ var controller = function () {
                     this.emit(':tell', "Tempo not recognized");
                     return;
                 }
+
+                if(keySlotValue === "i wish" || keySlotValue === "stevie wonder")
+                    tempoIndex = 2;
             	
             	var keyName = audioData[keyIndex].name;
         	    var tempoName = audioData[keyIndex].tempos[tempoIndex].name;
@@ -206,6 +209,8 @@ function keyToIndex(keySlotName){
         return 12;
     if(keySlotName === "click" || keySlotName === "click track" || keySlotName === "metronome" || keySlotName === "a click track" || keySlotName === "a metronome")
         return 13;
+    if(keySlotName === "i wish" || keySlotName === "stevie wonder")
+        return 14;
 
     return -1;
 }

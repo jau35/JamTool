@@ -210,6 +210,21 @@ var audioData = [
             { 'name' : '200 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/click_200.mp3' },
             { 'name' : '220 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/click_220.mp3' }
         ]
+    },
+    {
+        'name' : 'I Wish, by Stevie Wonder',
+        'tempos' : 
+        [
+            { 'name' : '60 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/IWish_100_0.mp3' },
+            { 'name' : '80 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/IWish_100_0.mp3' },
+            { 'name' : '100 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/IWish_100_0.mp3' },
+            { 'name' : '120 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/IWish_100_0.mp3' },
+            { 'name' : '140 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/IWish_100_0.mp3' },
+            { 'name' : '160 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/IWish_100_0.mp3' },
+            { 'name' : '180 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/IWish_100_0.mp3' },
+            { 'name' : '200 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/IWish_100_0.mp3' },
+            { 'name' : '220 beats per minute', 'file' : 'https://www.cs.drexel.edu/~dmp359/Tracks/IWish_100_0.mp3' }
+        ]
     }
 ];
 
