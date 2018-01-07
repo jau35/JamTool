@@ -116,8 +116,9 @@ var controller = function () {
             
             var keySlotValue = isSlotValid(this.event.request, keySlotName); //slot value or false
             var tempoSlotValue = isSlotValid(this.event.request, tempoSlotName);
+
             
-        	if  (keySlotValue && tempoSlotValue) {    
+        	if  (keySlotValue) {   
         		var keyIndex = keyToIndex(keySlotValue);
             	var tempoIndex = tempoToIndex(tempoSlotValue);
 
@@ -229,6 +230,6 @@ function tempoToIndex(tempoSlotName){
     if(tempoSlotName === "220" || tempoSlotName === "220 bpm" || tempoSlotName === "220 beats per minute" || tempoSlotName === "two hundred twenty beats per minute")
         return 8;
 
-    return -1;
+    return 3;
 }
 
